@@ -2,6 +2,11 @@
     "name": "Gmail App Dark",
     "version": "1.0.0",
     "description": "Chrome extension for a true dark Gmail Chrome Shrotcut App experience.",
+    "icons" : {
+        "128" : "logo-gmail-true-dark-ext128X128.png",
+        "48" : "logo-gmail-true-dark-ext48X48.png",
+        "16" : "logo-gmail-true-dark-ext16X16.png"
+    },
     "manifest_version": 3,
     "author": "Kumar Gaurav",
     "content_scripts": [{
