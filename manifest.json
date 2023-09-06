@@ -1,0 +1,11 @@
+{
+    "name": "Gmail App Dark",
+    "version": "1.0.0",
+    "description": "Chrome extension for a true dark Gmail Chrome Shrotcut App experience.",
+    "manifest_version": 3,
+    "author": "Kumar Gaurav",
+    "content_scripts": [{
+      "matches": [ "https://mail.google.com" ],
+      "js": ["script.js"]
+    }]
+}
