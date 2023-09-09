@@ -1,16 +1,23 @@
 {
-    "name": "Gmail App Dark",
-    "version": "1.0.0",
-    "description": "Chrome extension for a true dark Gmail Chrome Shrotcut App experience.",
-    "icons" : {
-        "128" : "logo-gmail-true-dark-ext128X128.png",
-        "48" : "logo-gmail-true-dark-ext48X48.png",
-        "16" : "logo-gmail-true-dark-ext16X16.png"
-    },
-    "manifest_version": 3,
-    "author": "Kumar Gaurav",
-    "content_scripts": [{
-      "matches": [ "https://mail.google.com" ],
-      "js": ["script.js"]
-    }]
+  "name": "Gmail Dark Header",
+  "version": "1.0.0",
+  "description": "जीमेल क्रोम शॉर्टकट के एप टूलबार पट्टी को गहरे रंग मे देखें | A dark theme toolbar header fot Gmail",
+  "icons": {
+    "128": "logo-gmail-true-dark-ext128X128.png",
+    "48": "logo-gmail-true-dark-ext48X48.png",
+    "32": "logo-gmail-true-dark-ext32X32.png",
+    "16": "logo-gmail-true-dark-ext16X16.png"
+  },
+  "manifest_version": 3,
+  "author": "कुमार गौरव",
+  "content_scripts": [
+    {
+      "js": [
+        "scripts.js"
+      ],
+      "matches": [
+        "https://mail.google.com/*"
+      ]
+    }
+  ]
 }
